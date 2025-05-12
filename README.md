@@ -71,12 +71,16 @@ Databricks Workflows	Automates and schedules pipeline jobs
 ✅ Data governance with Unity Catalog
 
 📁 Folder Structure
-Folder	Description
-Azure/	ADF pipelines and linked services (JSON templates)
-Data/	Sample Netflix data files (CSV, JSON)
-Databricks_notebooks/	Notebooks for data transformation and analysis (PySpark)
-parameter_file/	Parameterization configs for dynamic ADF pipelines
-pipelinescreenshots/	Visuals of pipeline architecture, ADF flows, and notebooks
+
+## 📁 Folder Descriptions
+
+| Folder                 | Description                                       |
+|------------------------|--------------------------------------------------|
+| `Azure/`              | ADF pipeline + linked services JSON files         |
+| `Data/`               | Sample input data files                           |
+| `Databricks_notebooks/` | Databricks notebooks for transformation/analysis|
+| `parameter_file/`     | ADF parameter files for dynamic configuration     |
+| `pipelinescreenshots/`| Screenshots of pipelines, workflows, architecture |
 
 📌 Conclusion
 This project highlights best practices in modern data engineering using Azure-native services and Databricks. With scalable architecture, incremental ingestion, and real-time analytics, it serves as a solid reference for building production-grade pipelines in cloud environments.
