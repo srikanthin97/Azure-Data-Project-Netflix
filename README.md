@@ -11,7 +11,7 @@ Silver Layer: Data cleaning and standardization with Delta Lake
 Gold Layer: Business-level aggregates via Delta Live Tables for insights and reporting
 
 🏗️ Solution Architecture
-architecture/ChatGPT Image May 12, 2025, 06_45_47 PM.png
+![Architecture Diagram](architecture/ChatGPT%20Image%20May%2012,%202025,%2006_45_47%20PM.png)
 
 
 🔹 Bronze Layer – Raw Data Ingestion
